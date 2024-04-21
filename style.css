@@ -1,0 +1,133 @@
+body {
+	margin: 0px;
+
+}
+
+.container, .container2, .container3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-image: url(https://th.bing.com/th/id/R.fc00e55be640eed9eb321e84f6a45191?rik=5MMQUgEHyMl2PQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f0u0VGYx.jpg&ehk=Mcwwsctme6brz3z23tOjWw9QtICpY%2biWfB52fKqHTn4%3d&risl=&pid=ImgRaw&r=0);
+	background-size: contain;
+	
+	
+}
+
+/* all h1 elements*/
+#lol, #las, #lif{
+	font-family: "Quicksand", sans-serif;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 6px 6px 7px #888888;
+	margin-top: 10px;
+}
+
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+	
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.land-divider, .sea-divider, .air-divider {
+	display: flex;
+	justify-content: space-between;
+}
+.land-item, .sea-item, .air-item{
+	padding: 10px;
+	height: auto;
+	overflow: auto;
+	font-weight: 500;
+	font-size: 35px;
+	font-family: "Shadows Into Light", cursive;
+	color: #f3f4f8;
+	text-align: center;
+}
+.land-one {
+    background-image: linear-gradient(to right, #0C2FA2, #07123A); /* Example gradient colors */
+    border: 1px solid #fff;
+    height: 200px;
+    flex: 1;
+}
+
+.land-two {
+    background-image: linear-gradient(to right, #0C2FA2, #07123A); 
+    border: 1px solid #fff;
+    height: 200px;
+    flex: 1;
+}
+
+.land-three {
+    background-image: linear-gradient(to right, #0C2FA2, #07123A); 
+    border: 1px solid #fff;
+    height: 200px;
+    flex: 1;
+}
+
+.container2 {
+	
+	background-image: url(https://th.bing.com/th/id/OIP.nv-KzFnnmQmabpDqR0hEKgHaHa?rs=1&pid=ImgDetMain);
+}
+
+.sea-one {
+    background-image: linear-gradient(to right, #FFAEAA, #D46F6A); /* Example gradient colors */
+    border: 1px solid #fff;
+    height: 200px;
+    flex: 1;
+}
+
+.sea-two {
+    background-image: linear-gradient(to right, #FFAEAA, #D46F6A); 
+    border: 1px solid #fff;
+    height: 200px;
+    flex: 1;
+}
+
+.sea-three {
+    background-image: linear-gradient(to right, #FFAEAA, #D46F6A); 
+    border: 1px solid #fff;
+    height: 200px;
+    flex: 1;
+}
+
+.container3 {
+	background-image: url(https://th.bing.com/th/id/OIG4.z2ajPxF2vQ154oVBDTzq?w=1024&h=1024&rs=1&pid=ImgDetMain);
+	background-size: 50%;
+}
+
+.air-one {
+    background-image: linear-gradient(to right, #5FEE71, #10631A); /* Example gradient colors */
+    border: 1px solid #fff;
+    height: 200px;
+    flex: 1;
+}
+
+.air-two {
+    background-image: linear-gradient(to right, #5FEE71, #10631A); 
+    border: 1px solid #fff;
+    height: 200px;
+    flex: 1;
+}
+
+.air-three {
+    background-image: linear-gradient(to right, #5FEE71, #10631A); 
+    border: 1px solid #fff;
+    height: 200px;
+    flex: 1;
+}
+
+
+
+
+
+
+
+  
